@@ -1,0 +1,7 @@
+C:\Users\divyashree.chatra\source\repos\PrintScannerProgram\PrintScannerProgram\bin\Debug\PrintScannerProgram.exe.config
+C:\Users\divyashree.chatra\source\repos\PrintScannerProgram\PrintScannerProgram\bin\Debug\PrintScannerProgram.exe
+C:\Users\divyashree.chatra\source\repos\PrintScannerProgram\PrintScannerProgram\bin\Debug\PrintScannerProgram.pdb
+C:\Users\divyashree.chatra\source\repos\PrintScannerProgram\PrintScannerProgram\obj\Debug\PrintScannerProgram.csprojResolveAssemblyReference.cache
+C:\Users\divyashree.chatra\source\repos\PrintScannerProgram\PrintScannerProgram\obj\Debug\PrintScannerProgram.csproj.CoreCompileInputs.cache
+C:\Users\divyashree.chatra\source\repos\PrintScannerProgram\PrintScannerProgram\obj\Debug\PrintScannerProgram.exe
+C:\Users\divyashree.chatra\source\repos\PrintScannerProgram\PrintScannerProgram\obj\Debug\PrintScannerProgram.pdb
