@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace PrintScannerProgram
 {
-    public class PrintManager:Printer
+    public class PrintManager
     {
-        public void Print(Printer message)
+        public void PrintDocument(IPrinter printer)
         {
-            message.Print();
-
+            printer.Print();
         }
     }
 }

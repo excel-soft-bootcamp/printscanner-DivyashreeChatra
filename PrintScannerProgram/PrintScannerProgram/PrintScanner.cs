@@ -6,46 +6,30 @@ using System.Threading.Tasks;
 
 namespace PrintScannerProgram
 {
-    public class PrintScanner
+    public class PrintScanner : IPrinter, IScanner
     {
-        IPrinter printer;
-        IScanner scanner;
+        IPrinter _printerRef;
+        IScanner _scannerRef;
 
-        public PrintScanner(Printer _printer)
+        public void SetPrinter(IPrinter printerRef)
         {
-            this.printer = _printer;
-
+            this._printerRef = printerRef;
         }
-
-        public PrintScanner(Scanner _scanner)
+        public void SetScanner(IScanner scanRef)
         {
-            this.scanner = _scanner;
-        }
 
-        public PrintScanner(Printer _printer, Scanner _scanner)
+            this._scannerRef = scanRef;
+        }
+        public void Print()
         {
-            this.printer = _printer;
-            this.scanner = _scanner;
+          
+            this._printerRef.Print();
         }
-
-        public void PrintingOnly()
+        public void Scan()
         {
-            printer.Print();
+          
+            this._scannerRef.Scan();
         }
-
-        public void ScanningOnly()
-        {
-            scanner.Scan();
-        }
-
-        public void PrintAndScan()
-        {
-            printer.Print();
-            scanner.Scan();
-        }
-
-
-
 
     }
 }

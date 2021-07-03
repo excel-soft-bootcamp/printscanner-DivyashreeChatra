@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace PrintScannerProgram
 {
-    public class ScanManager
+    public class NanoLaserPrinter : IPrinter
     {
-        public void ScanDocument(IScanner scaner)
+
+        public void Print()
         {
-            scaner.Scan();
+            Console.WriteLine("Nano Laser Printer in Action");
+
         }
     }
 }
